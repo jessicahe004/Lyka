@@ -1,0 +1,109 @@
+/* Base Circle Styling */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(211, 185, 165, 0.5), transparent);
+  opacity: 0.7;
+  animation: float 30s infinite ease-in-out;
+}
+
+/* Animation for floating effect */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Top-left circles */
+.circle-top-left {
+  background: radial-gradient(circle, rgba(211, 185, 165, 0.6), transparent);
+}
+
+.circle-top-left.circle-2 {
+  background: radial-gradient(circle, rgba(255, 224, 203, 0.5), transparent);
+}
+
+.circle-top-left.circle-3 {
+  background: radial-gradient(circle, rgba(255, 224, 203, 0.4), transparent);
+}
+
+/* Bottom-right circles */
+.circle-bottom-right {
+  background: radial-gradient(circle, rgba(255, 224, 203, 0.4), transparent);
+}
+
+.circle-bottom-right.circle-2 {
+  background: radial-gradient(circle, rgba(211, 185, 165, 0.5), transparent);
+}
+
+.circle-bottom-right.circle-3 {
+  background: radial-gradient(circle, rgba(211, 185, 165, 0.3), transparent);
+}
+
+/* Positioning for top-left circles */
+.circle-top-left {
+  width: 120px;
+  height: 120px;
+}
+
+.circle-top-left.circle-2 {
+  width: 80px;
+  height: 80px;
+}
+
+.circle-top-left.circle-3 {
+  width: 100px;
+  height: 100px;
+}
+
+.circle-top-left {
+  top: 10%;
+  left: 10%;
+}
+
+.circle-top-left.circle-2 {
+  top: 20%;
+  left: 20%;
+}
+
+.circle-top-left.circle-3 {
+  top: 35%;
+  left: 35%;
+}
+
+/* Positioning for bottom-right circles */
+.circle-bottom-right {
+  width: 120px;
+  height: 120px;
+}
+
+.circle-bottom-right.circle-2 {
+  width: 80px;
+  height: 80px;
+}
+
+.circle-bottom-right.circle-3 {
+  width: 100px;
+  height: 100px;
+}
+
+.circle-bottom-right {
+  bottom: 10%;
+  right: 10%;
+}
+
+.circle-bottom-right.circle-2 {
+  bottom: 20%;
+  right: 20%;
+}
+
+.circle-bottom-right.circle-3 {
+  bottom: 35%;
+  right: 35%;
+}

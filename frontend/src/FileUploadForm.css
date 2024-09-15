@@ -1,0 +1,46 @@
+.file-upload-form {
+  width: 40vw; /* Width as 40% of the viewport width */
+  height: 100vh; /* Height as 50% of the viewport height */
+  max-width: 800px; /* Optional: maximum width for larger screens */
+  max-height: 600px; /* Optional: maximum height for larger screens */
+  overflow: hidden; /* Hide overflow to ensure a neat appearance */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-container {
+  flex: 1; /* Make carousel container flexible to fill available space */
+  overflow: auto; /* Allow scrolling if content overflows */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  width: 100%;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 8px; /* Adjust spacing between buttons and carousel */
+}
+
+.navigation-button, .upload-form-submit {
+  margin: 0 5px; /* Adjust margin for spacing */
+}
+
+.upload-form-submit {
+  background-color: #4a2c2a; /* Dark brown color */
+  color: white; /* White text color for contrast */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Add padding for better appearance */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  font-weight: bold; /* Make the text bold */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.upload-form-submit:hover {
+  background-color: #3e1f1d; /* Slightly darker brown for hover effect */
+}
