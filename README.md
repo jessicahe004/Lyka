@@ -1,5 +1,5 @@
 # LYKA
 
-Introducing a culture first AI physician. 
+Introducing a Empathetic AI Health Assistant
 
 *this is a work in progress
